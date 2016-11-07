@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Where To</title>
+	<script type="text/javascript">
+		function headFunction(){
+			document.getElementById('from_head').innerHTML = 'This function called from head';
+		}
+	</script>
+	<script type="text/javascript" src="js/myScript.js"></script>
+</head>
+<body>
+	<p>JavaScript can be placed in the body and the head sections of an HTML page.</p>
+	<p>In HTML, JavaScript code must be inserted between script tags.</p>
+	<p id="from_head">Change this text From Head function</p>
+	<button type="button" onclick="headFunction()">From Head</button>
+	<hr>
+	<h2>Function called from body function</h2>
+	<p id="from_body">Change this text From Body function</p>
+	<button type="button" onclick="bodyFunction()">From Body</button>
+	<script type="text/javascript">
+		function bodyFunction(){
+			document.getElementById('from_body').innerHTML = 'This function called from Body';
+		}
+	</script>
+	<p><i>Note: It is a good idea to place scripts at the bottom of the body element. This can improve page load, because script compilation can slow down the display.</i></p>
+	<hr>
+	<h2>External JS</h2>
+	<p id="from_external">Change this text From External function</p>
+	<button type="button" onclick="externalFunction()">From External JS</button>
+
+	<h4>Advantages of external JS</h4>
+	<ul>
+		<li>It separates HTML and code</li>
+		<li>It makes HTML and JavaScript easier to read and maintain</li>
+		<li>Cached JavaScript files can speed up page loads</li>
+	</ul>
+	<hr>
+
+</body>
+</html>
