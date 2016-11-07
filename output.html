@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Output</title>
+</head>
+<body>
+	<h2>JS Output</h2>
+	<p>JavaScript does NOT have any built-in print or display functions. <br>JavaScript can "display" data in different ways:</p>
+	<ul>
+		<li>Writing into an alert box, using window.alert().</li>
+		<li>Writing into the HTML output using document.write().</li>
+		<li>Writing into an HTML element, using innerHTML.</li>
+		<li>Writing into the browser console, using console.log().</li>
+	</ul>
+	<hr>
+	<h2>Alert</h2>
+		<p>window.alert(5+6);</p>
+	<hr>
+	<h2>Using document.write()</h2>
+		<p>window.alert(5+6);</p>
+	<hr>
+	<h2>Using innerHTML</h2>
+		<p id="inner"></p>
+	<hr>
+	<h2>Using console.log()</h2>
+	<hr>
+	<script type="text/javascript">
+		window.alert(5+6);
+		document.write(5 + 6);
+		document.getElementById('inner').innerHTML = 5+6;
+		console.log(5 + 6);
+	</script>
+</body>
+</html>
