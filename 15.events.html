@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events</title>
+</head>
+<body>
+	<h2>Javascript Events</h2>
+	<p>
+      <button onclick="document.getElementById('e1').innerHTML = Date()">Click to show time</button>
+      <span id="e1"></span>
+  </p>
+
+	<p>
+      <button onclick="this.innerHTML = Date()">Click to show time</button>
+  </p>
+
+  <h2>Javascript Events using function</h2>
+	<p>
+      <button onclick="showDate()">Click to show time</button>
+      <span id="e2"></span>
+  </p>
+
+  <h2>Javascript Events onchange</h2>
+	<p>
+      <input type="text" id="text1" value="" onChange="inputOnchange()" placeholder="On Change">
+      <span id="e3"></span>
+  </p>
+
+  <h2>Javascript Events onclick</h2>
+	<p>
+      <input type="text" id="text2" value="" placeholder="On Click">
+      <button onclick="clickFunction()">On Click</button>
+      <span id="e4"></span>
+  </p>
+
+  <h2>Javascript Events onmouseover</h2>
+	<p>
+      <button onmouseover="mouseOverFunction()">On mouse over</button>
+      <span id="e5"></span>
+  </p>
+
+  <h2>Javascript Events onmouseout</h2>
+	<p>
+      <button onmouseout="mouseOutFunction()">On mouse out</button>
+      <span id="e6"></span>
+  </p>
+
+  <h2>Javascript Events onload</h2>
+	<p>
+      <span id="e7"></span>
+  </p>
+
+  <h2>Javascript Events on key up</h2>
+	<p>
+      <input type="text" id="text3" value="" onkeyup="keyUpFunction()" placeholder="On key up">
+      <span id="e8"></span>
+  </p>
+
+  <h2>Javascript Events on key down</h2>
+	<p>
+      <input type="text" id="text4" value="" onkeydown="keyDownFunction()" placeholder="On key down">
+      <span id="e9"></span>
+  </p>
+
+	<script type="text/javascript" src="js/15.events.js"></script>
+</body>
+</html>
