@@ -38,3 +38,11 @@ var g = NaN;
 var h = 20;
 var i = g + h ;
 document.getElementById('num9').innerHTML = "NaN + 20 = "+ i + '. Is it NaN: ' + isNaN(i);
+
+//js object
+var o_num1 = 500;
+var o_num2 = new Number(500);
+
+document.getElementById('num10').innerHTML = o_num1+' '+ typeof o_num1 + " "+ o_num2+' '+typeof o_num2;
+document.getElementById('num11').innerHTML = o_num1 == o_num2 ;
+document.getElementById('num12').innerHTML = o_num1 === o_num2 ;
