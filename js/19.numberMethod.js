@@ -13,3 +13,7 @@ document.getElementById('h3').innerHTML = 'toFixed() returns a string, with the 
 document.getElementById('num5').innerHTML = 'toFixed(0) = '+num2.toFixed();
 document.getElementById('num6').innerHTML = 'toFixed(2) = '+num2.toFixed(2);
 document.getElementById('num7').innerHTML = 'toFixed(5) = '+num2.toFixed(5);
+
+document.getElementById('h4').innerHTML = 'toPrecision() returns a string, with a number written with a specified length:';
+document.getElementById('num8').innerHTML = num2.toPrecision(2);
+document.getElementById('num9').innerHTML = num2.toPrecision(4);
