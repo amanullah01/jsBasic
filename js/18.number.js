@@ -18,5 +18,23 @@ function stopWhenInfinity(){
       text += number+"<br>" ;
       document.getElementById("num4").innerHTML = text ;
   }
-
 }
+
+//nan
+document.getElementById('num5').innerHTML = "Type of NaN is: "+ typeof NaN;
+var x = 100;
+var y = "Apple";
+var z = x / y ;
+document.getElementById('num6').innerHTML = "100 / 'Apple' = "+ z + '. Is it NaN: ' + isNaN(z);
+var a = 100;
+var b = "20";
+var c = a / b ;
+document.getElementById('num7').innerHTML = "100 / '10' = "+ c + '. Is it NaN: ' + isNaN(c);
+var d = NaN;
+var e = "20";
+var f = d + e ;
+document.getElementById('num8').innerHTML = "NaN + '20' = "+ f + '. Is it NaN: ' + isNaN(f);
+var g = NaN;
+var h = 20;
+var i = g + h ;
+document.getElementById('num9').innerHTML = "NaN + 20 = "+ i + '. Is it NaN: ' + isNaN(i);
