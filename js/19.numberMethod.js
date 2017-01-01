@@ -7,3 +7,9 @@ document.getElementById('h2').innerHTML = 'toExponential() returns a string, wit
 var num2 = 9.652 ;
 document.getElementById('num3').innerHTML = num2.toExponential(2);
 document.getElementById('num4').innerHTML = num2.toExponential(4);
+
+
+document.getElementById('h3').innerHTML = 'toFixed() returns a string, with the number written with a specified number of decimals:';
+document.getElementById('num5').innerHTML = 'toFixed(0) = '+num2.toFixed();
+document.getElementById('num6').innerHTML = 'toFixed(2) = '+num2.toFixed(2);
+document.getElementById('num7').innerHTML = 'toFixed(5) = '+num2.toFixed(5);
