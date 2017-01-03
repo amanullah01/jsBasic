@@ -13,3 +13,6 @@ document.getElementById('m6').innerHTML = '8 to the power 3  = '+ Math.pow(8,3);
 document.getElementById('h4').innerHTML = 'Math.sqrt(x) returns the square root of x:';
 document.getElementById('m7').innerHTML = '64 sqrt  = '+ Math.sqrt(64);
 document.getElementById('m8').innerHTML = '64 sqrt  = '+ Math.sqrt(125);
+
+document.getElementById('h5').innerHTML = 'Math.abs(x) returns the absolute (positive) value of x:';
+document.getElementById('m9').innerHTML = 'Math.abs(-10.2365)  = '+ Math.abs(10.23654);
