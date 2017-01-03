@@ -29,3 +29,11 @@ document.getElementById('num14').innerHTML = 'x = 10 => '+ Number(10);
 document.getElementById('num15').innerHTML = 'x = "10" => '+ Number("10");
 document.getElementById('num16').innerHTML = 'x = "10 220" => '+ Number("10 220");
 document.getElementById('num17').innerHTML = 'x = "Aman" => '+ Number("Aman");
+
+document.getElementById('h7').innerHTML = 'parseInt() parses a string and returns a whole number. Spaces are allowed. Only the first number is returned:';
+document.getElementById('num18').innerHTML = 'x = 10 => '+ parseInt("10");
+document.getElementById('num19').innerHTML = 'x = 10.23 => '+ parseInt("10.23");
+document.getElementById('num20').innerHTML = 'x = 10 20 30 => '+ parseInt("10 20 30");
+document.getElementById('num21').innerHTML = 'x = 10 years => '+ parseInt("10 Years");
+document.getElementById('num22').innerHTML = 'x = "years 10" => '+ parseInt("Years 10");
+document.getElementById('num23').innerHTML = 'x = "Aman" => '+ parseInt("Aman");
