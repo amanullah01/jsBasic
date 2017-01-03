@@ -16,3 +16,9 @@ document.getElementById('m8').innerHTML = '64 sqrt  = '+ Math.sqrt(125);
 
 document.getElementById('h5').innerHTML = 'Math.abs(x) returns the absolute (positive) value of x:';
 document.getElementById('m9').innerHTML = 'Math.abs(-10.2365)  = '+ Math.abs(10.23654);
+
+document.getElementById('h6').innerHTML = 'Math.ceil(x) returns the value of x rounded up to its nearest integer';
+document.getElementById('m10').innerHTML = 'Math.ceil(4.4)  = '+ Math.ceil(4.4);
+
+document.getElementById('h7').innerHTML = 'Math.floor(x) returns the value of x rounded down to its nearest integer';
+document.getElementById('m11').innerHTML = 'Math.ceil(4.4)  = '+ Math.floor(4.4);
