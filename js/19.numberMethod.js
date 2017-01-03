@@ -17,3 +17,15 @@ document.getElementById('num7').innerHTML = 'toFixed(5) = '+num2.toFixed(5);
 document.getElementById('h4').innerHTML = 'toPrecision() returns a string, with a number written with a specified length:';
 document.getElementById('num8').innerHTML = num2.toPrecision(2);
 document.getElementById('num9').innerHTML = num2.toPrecision(4);
+
+document.getElementById('h5').innerHTML = 'The valueOf() method is used internally in JavaScript to convert Number objects to primitive values.';
+document.getElementById('num10').innerHTML = (100.23).valueOf();
+
+document.getElementById('h6').innerHTML = 'Number() can be used to convert JavaScript variables to numbers:';
+document.getElementById('num11').innerHTML = 'x = true => '+ Number(true);
+document.getElementById('num12').innerHTML = 'x = false => '+ Number(false);
+document.getElementById('num13').innerHTML = 'x = new Date() => '+ Number(new Date());
+document.getElementById('num14').innerHTML = 'x = 10 => '+ Number(10);
+document.getElementById('num15').innerHTML = 'x = "10" => '+ Number("10");
+document.getElementById('num16').innerHTML = 'x = "10 220" => '+ Number("10 220");
+document.getElementById('num17').innerHTML = 'x = "Aman" => '+ Number("Aman");
