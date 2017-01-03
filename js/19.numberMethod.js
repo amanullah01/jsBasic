@@ -37,3 +37,11 @@ document.getElementById('num20').innerHTML = 'x = 10 20 30 => '+ parseInt("10 20
 document.getElementById('num21').innerHTML = 'x = 10 years => '+ parseInt("10 Years");
 document.getElementById('num22').innerHTML = 'x = "years 10" => '+ parseInt("Years 10");
 document.getElementById('num23').innerHTML = 'x = "Aman" => '+ parseInt("Aman");
+
+document.getElementById('h8').innerHTML = 'parseFloat() parses a string and returns a number. Spaces are allowed. Only the first number is returned:';
+document.getElementById('num24').innerHTML = 'x = 10 => '+ parseFloat("10");
+document.getElementById('num25').innerHTML = 'x = 10.23 => '+ parseFloat("10.23");
+document.getElementById('num26').innerHTML = 'x = 10 20 30 => '+ parseFloat("10 20 30");
+document.getElementById('num27').innerHTML = 'x = 10 years => '+ parseFloat("10 Years");
+document.getElementById('num28').innerHTML = 'x = "years 10" => '+ parseFloat("Years 10");
+document.getElementById('num29').innerHTML = 'x = "Aman" => '+ parseFloat("Aman");
