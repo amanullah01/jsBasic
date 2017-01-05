@@ -22,3 +22,7 @@ document.getElementById('m10').innerHTML = 'Math.ceil(4.4)  = '+ Math.ceil(4.4);
 
 document.getElementById('h7').innerHTML = 'Math.floor(x) returns the value of x rounded down to its nearest integer';
 document.getElementById('m11').innerHTML = 'Math.ceil(4.4)  = '+ Math.floor(4.4);
+
+document.getElementById('h8').innerHTML = 'Math.min() and Math.max() can be used to find the lowest or highest value in a list of arguments';
+document.getElementById('m12').innerHTML = '(0, 150, 30, 20, -8, -200) find min value using Math.min() = '+ Math.min(0, 150, 30, 20, -8, -200);
+document.getElementById('m13').innerHTML = '(0, 150, 180, 20, -8, -200) find max value using Math.max() = '+ Math.max(0, 150, 180, 20, -8, -200);
